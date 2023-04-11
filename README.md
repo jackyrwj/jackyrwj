@@ -13,14 +13,26 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
+
+
+## 🌎 Visitors
+[![Visits Badge](https://badges.pufler.dev/visits/puf17640/git-badges)](https://badges.pufler.dev)
 -->
 
 
 Hi there ~
 👋. I am Wenjie Rao from The ShenZhen University.
+
+
 🔭. My current research interest includes EEG Emotion Recognition and Network Pruning.
+
+
 🤔. I work in Java backend development.
+
+
 😄. Welcome to follow. 
+
+
 
 
 
@@ -58,5 +70,3 @@ Hi there ~
 - [github pages搭建个人博客教程](https://jackyrwj.github.io/create_blog_with_github_pages/)
 <!-- BLOG-POST-LIST:END -->
 
-## 🌎 Visitors
-[![Visits Badge](https://badges.pufler.dev/visits/puf17640/git-badges)](https://badges.pufler.dev)
