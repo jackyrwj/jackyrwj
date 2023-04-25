@@ -56,10 +56,10 @@ Hi there ~
 
 
 ## 🌎 Find me
-- blog: click [Jackyrwj](https://jackyrwj.github.io/):memo:    
-- email:<a href="mailto:raowenjieszu@foxmail.com">raowenjie@foxmail.com</a>:e-mail:
-## 🚀 Blog Posts
+- blog: [Jackyrwj](https://jackyrwj.github.io/):memo:    
+- email: <a href="mailto:raowenjieszu@foxmail.com">raowenjie@foxmail.com</a>:e-mail:
+<!-- ## 🚀 Blog Posts
 <!-- BLOG-POST-LIST:START -->
 - [github pages搭建个人博客教程](https://jackyrwj.github.io/create_blog_with_github_pages/)
-<!-- BLOG-POST-LIST:END -->
+<!-- BLOG-POST-LIST:END --> -->
 
