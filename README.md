@@ -24,7 +24,6 @@ Here are some ideas to get you started:
 -->
 
 
-Hi there ~   
 👋. I am Wenjie Rao from The ShenZhen University.   
 🔭. My current research interest includes EEG Emotion Recognition and Network Pruning.   
 🤔. I work in Java backend development.   
