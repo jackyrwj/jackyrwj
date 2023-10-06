@@ -56,5 +56,5 @@ Here are some ideas to get you started:
 
 ## 🌎 Find me
 - blog: [Jackyrwj](https://jackyrwj.github.io/):memo:    
-- email: <a href="mailto:raowenjieszu@foxmail.com">raowenjie@foxmail.com</a>:e-mail:
+- email: <a href="mailto:raowenjieszu@foxmail.com">raowenjieszu@foxmail.com</a>:e-mail:
 
