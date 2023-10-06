@@ -24,9 +24,9 @@ Here are some ideas to get you started:
 -->
 
 
-👋. I am Wenjie Rao from The ShenZhen University.   
+👋. I am Jackyrwj from The ShenZhen University.   
 🔭. My current research interest includes EEG Emotion Recognition and Network Pruning.   
-🤔. I work in Java backend development.   
+🤔. My job is quality assurance.
 😄. Welcome to follow. 
 
 
