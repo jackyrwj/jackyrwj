@@ -2,11 +2,11 @@
   <h1>Welcome(◍˃̶ᗜ˂̶◍)✩</h1>
 
   ![header](https://capsule-render.vercel.app/api?type=waving&color=f5a9b8&height=300&section=header&text=I%20mainly%20use%20Java,%20Python,%20React%20and%20C.&fontSize=36&fontColor=ffffff)
-
 </div>
 
+<img align='right' src='./images/current.png' width='400px' alt='看板娘'>
 
-<img align='right' src='https://counter.seku.su/c302?' width='400px'>
+<!-- <img align='right' src='https://counter.seku.su/c302?' width='400px'> -->
 
 <p align="center">
   <br/><br/>

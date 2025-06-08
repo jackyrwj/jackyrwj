@@ -1,0 +1,30 @@
+name: Update README Image
+
+on:
+  schedule:
+    - cron: '*/1 * * * *'  # 每2分钟运行一次
+  workflow_dispatch:      # 允许手动触发
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Make script executable
+        run: chmod +x scripts/update-readme.sh
+      
+      - name: Update README
+        run: ./scripts/update-readme.sh
+      
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: 'Update README image'
+          add: 'README.md images/current.png'
+          commit: 'README.md images/current.png'
+          branch: main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
