@@ -35,7 +35,7 @@ jobs:
           plugin_activity: yes
           plugin_activity_days: 14
           plugin_activity_filter: all
-          plugin_activity_limit: 5
+          plugin_activity_limit: 10
           plugin_activity_load: 300
           plugin_activity_visibility: all
           
@@ -48,15 +48,15 @@ jobs:
           
           # 关注者配置
           plugin_people: yes
-          plugin_people_limit: 24
+          plugin_people_limit: 36
           plugin_people_size: 28
           plugin_people_types: followers, following
           
           # 项目配置
           plugin_projects: yes
-          plugin_projects_limit: 4
+          plugin_projects_limit: 6
           plugin_stars: yes
-          plugin_stars_limit: 4
+          plugin_stars_limit: 6
           
           # 其他配置
           plugin_followup: yes
