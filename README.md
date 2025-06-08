@@ -4,7 +4,7 @@
   ![header](https://capsule-render.vercel.app/api?type=waving&color=f5a9b8&height=300&section=header&text=I%20mainly%20use%20Java,%20Python,%20React%20and%20C.&fontSize=36&fontColor=ffffff)
 </div>
 
-<img align='right' src='./images/current.png' width='500px' alt='看板娘' style='border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1);'>
+<img align='right' src='./images/current.png' width='480px' alt='看板娘' style='border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1);'>
 
 <!-- <img align='right' src='https://counter.seku.su/c302?' width='400px'> -->
 
