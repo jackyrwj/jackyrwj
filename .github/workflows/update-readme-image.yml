@@ -1,9 +1,9 @@
 name: Update README Image
 
 on:
-  schedule:
-    - cron: '*/2 * * * *'  # 每2分钟运行一次
+  schedule: [{cron: "0 0 * * *"}]  # 每天 0 点运行
   workflow_dispatch:      # 允许手动触发
+  push: {branches: ["main"]}  # 添加 push 触发器
 
 jobs:
   update-readme:
