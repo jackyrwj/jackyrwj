@@ -6,7 +6,7 @@
 
 <!-- 右侧看板娘图片容器 -->
 <div style="float: right; width: 450px; margin-left: 20px;">
-  <img src='./images/current.png' width='100%' alt='看板娘' style='border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1);'>
+  <img src='./images/current.png?v=1749405450_918' width='100%' alt='看板娘' style='border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1);'>
 </div>
 
 <!-- 左侧统计信息容器 -->
