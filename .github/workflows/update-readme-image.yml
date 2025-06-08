@@ -25,6 +25,5 @@ jobs:
           message: 'Update README image'
           add: 'README.md images/current.png'
           commit: 'README.md images/current.png'
-          branch: main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
