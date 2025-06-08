@@ -18,7 +18,7 @@
 
   <!-- 右侧内容容器：看板娘图片 -->
   <div style="width: 400px; text-align: center; margin-left: 20px;">
-    <img src='./images/current.png' width='100%' alt='看板娘' style='border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); display: block; margin: 0 auto;'>
+    <img src='./images/current.png?v=1749405806_117' width='100%' alt='看板娘' style='border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); display: block; margin: 0 auto;'>
   </div>
 </div>
 
