@@ -52,11 +52,11 @@ jobs:
           plugin_people_size: 28
           plugin_people_types: followers, following
           
-          # 项目配置
-          plugin_projects: yes
-          plugin_projects_limit: 6
-          plugin_stars: yes
-          plugin_stars_limit: 6
+          # # 项目配置
+          # plugin_projects: yes
+          # plugin_projects_limit: 6
+          # plugin_stars: yes
+          # plugin_stars_limit: 6
           
           # 其他配置
           plugin_followup: yes
