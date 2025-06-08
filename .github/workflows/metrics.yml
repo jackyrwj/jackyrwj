@@ -28,7 +28,7 @@ jobs:
           # Options
           user: jackyrwj
           template: terminal
-          base: header, activity, community, repositories, metadata
+          base: header, activity, community, metadata
           config_timezone: Asia/Shanghai
           
           # 活动配置
@@ -40,11 +40,11 @@ jobs:
           plugin_activity_visibility: all
           
           # 仓库配置
-          plugin_repositories: yes
-          plugin_repositories_affiliations: owner
-          plugin_repositories_featured: yes
-          plugin_repositories_pinned: yes
-          plugin_repositories_starred: yes
+          plugin_repositories: no
+          # plugin_repositories_affiliations: owner
+          # plugin_repositories_featured: yes
+          # plugin_repositories_pinned: yes
+          # plugin_repositories_starred: yes
           
           # 关注者配置
           plugin_people: yes
