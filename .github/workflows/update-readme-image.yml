@@ -2,7 +2,7 @@ name: Update README Image
 
 on:
   schedule:
-    - cron: '*/1 * * * *'  # 每2分钟运行一次
+    - cron: '*/2 * * * *'  # 每2分钟运行一次
   workflow_dispatch:      # 允许手动触发
 
 jobs:
@@ -25,5 +25,6 @@ jobs:
           message: 'Update README image'
           add: 'README.md images/current.png'
           commit: 'README.md images/current.png'
+          push: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
