@@ -22,9 +22,9 @@ jobs:
       - name: Commit changes
         uses: EndBug/add-and-commit@v9
         with:
-          message: 'Update README image'
-          add: 'README.md images/current.png'
-          commit: 'README.md images/current.png'
+          message: 'chore: Update README image'
+          add: 'README.md'
+          commit: 'README.md'
           push: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

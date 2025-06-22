@@ -1,19 +1,18 @@
 #!/bin/bash
 
-# 获取随机图片
-IMAGES=($(ls images/*.{png,jpg,jpeg,gif} 2>/dev/null))
+# 获取 images 目录下的所有实际图片文件
+IMAGES=($(ls images/whole_body-*.{png,jpg,jpeg,gif} 2>/dev/null))
 
-# 使用时间戳作为随机种子
-RANDOM_SEED=$(date +%s)
-RANDOM=$RANDOM_SEED
+# 如果没有找到图片，则退出以避免错误
+if [ ${#IMAGES[@]} -eq 0 ]; then
+  echo "No images found in images/ directory matching whole_body-*. Exiting."
+  exit 1
+fi
 
-# 随机选择一个图片
+# 从图片数组中随机选择一个
 RANDOM_IMAGE=${IMAGES[$RANDOM % ${#IMAGES[@]}]}
 
-# 复制随机图片为 current.png
-cp "$RANDOM_IMAGE" "images/current.png"
-
-# 更新 README.md
-TIMESTAMP=$(date +%s)
-RANDOM_NUM=$((RANDOM % 1000))
-sed -i "s|src='./images/current.png'|src='./images/current.png?v=${TIMESTAMP}_${RANDOM_NUM}'|" README.md
+# 使用 sed 直接更新 README.md 中的图片 src 属性
+# 这个命令会查找 alt='看板娘' 的 img 标签，并将其 src 替换为新的随机图片路径
+# This is a safer way to replace the image source without creating a temporary file.
+sed -i "s|src='[^']*/images/[^']*.png[^']*'\(.*alt='看板娘'\)|src='./$RANDOM_IMAGE'\1|g" README.md
