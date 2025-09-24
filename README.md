@@ -1,10 +1,10 @@
-# Hi there, I'm Jacky 👋
+<!-- GitHub README 两列布局，避免被渲染为代码块 -->
 
 <table>
   <tr>
     <!-- 左侧：个人信息和联系方式 -->
     <td valign="top" width="50%">
-      
+      <h2>Hi there, I'm Jacky 👋</h2>
       <h3>Connect with me:</h3>
       <p align="left">
         <a href="mailto:raowenjieszu@gmail.com">
@@ -26,7 +26,6 @@
         <li>🔭 I’m currently working on <a href="https://github.com/jackyrwj/van">Van</a></li>
       </ul>
     </td>
-
     <!-- 右侧：统计和展示 -->
     <td valign="top" width="50%">
       <div align="center">
@@ -42,6 +41,4 @@
     </td>
   </tr>
 </table>
-
-<br/>
 
