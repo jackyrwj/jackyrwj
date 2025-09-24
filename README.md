@@ -34,11 +34,26 @@
           <img src="https://github-readme-stats.vercel.app/api?username=jackyrwj&show_icons=true&theme=asoul&count_private=true&custom_title=Jacky's%20GitHub%20Stats" alt="Jacky's GitHub stats" width="300px"/>
         </a>
         <br/>
-        <img src="https://raw.githubusercontent.com/jackyrwj/jackyrwj/master/metrics.plugin.topics.icons.svg" alt="我的星标主题" width="300px"/>
-        <br/>
         <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jackyrwj&layout=compact&theme=asoul" alt="Jacky's Top Languages" width="300px"/>
       </div>
     </td>
   </tr>
 </table>
+
+<br/>
+
+<!-- 我的 GitHub 统计 -->
+<h3 align="center">我的 GitHub 统计</h3>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jackyrwj/jackyrwj/master/metrics.topics.svg" width="400" />
+  <img src="https://raw.githubusercontent.com/jackyrwj/jackyrwj/master/metrics.plugin.stars.svg" width="400" />
+</p>
+
+---
+
+<!-- 全年贡献日历 -->
+<h4 align="center">全年贡献日历</h4>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jackyrwj/jackyrwj/master/metrics.plugin.isocalendar.fullyear.svg" width="90%" />
+</p>
 
