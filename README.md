@@ -26,7 +26,7 @@
         <li>🔭 I’m currently working on <a href="https://github.com/jackyrwj/van">Van</a></li>
       </ul>
       <br/>
-      <img src="https://raw.githubusercontent.com/jackyrwj/jackyrwj/master/metrics.topics.svg" width="90%" />
+      <img src="https://raw.githubusercontent.com/jackyrwj/jackyrwj/master/metrics.plugin.topics.icons.svg" width="90%" />
       <br/>
       <img src="https://raw.githubusercontent.com/jackyrwj/jackyrwj/master/metrics.isocalendar.svg" width="90%" />
     </td>
