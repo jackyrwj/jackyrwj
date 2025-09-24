@@ -9,22 +9,33 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@latest
+      # Step 1: 生成星标主题的 SVG
+      - name: Generate Starred Topics
+        uses: lowlighter/metrics@latest
         with:
-          filename: metrics.svg
+          filename: metrics.topics.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
-
-          # 星标主题插件配置
           plugin_topics: yes
           plugin_topics_mode: icons
           plugin_topics_limit: 15
 
-          # 最近 Star 插件配置
-          plugin_stargazers: yes
-          plugin_stargazers_limit: 3
-          plugin_stargazers_repositories: 100
+      # Step 2: 生成最近 Star 的 SVG
+      - name: Generate Recently Starred
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.stars.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_stars: yes
+          plugin_stars_limit: 3
 
-          # 全年日历插件配置 (新添加)
+      # Step 3: 生成全年日历的 SVG
+      - name: Generate Full-Year Calendar
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.isocalendar.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
