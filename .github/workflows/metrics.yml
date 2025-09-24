@@ -1,66 +1,30 @@
-# Visit https://github.com/lowlighter/metrics/blob/master/action.yml for full reference
-name: Metrics
+name: GitHub Metrics
 on:
-  # Schedule updates (each day)
-  schedule: [{cron: "0 0 * * *"}]
-  # Lines below let you run workflow manually and on each commit
+  schedule:
+    - cron: "0 0 * * *"
   workflow_dispatch:
-  push: {branches: ["master", "main"]}
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      pull-requests: write
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          # Your GitHub token
-          # The following scopes are required:
-          #  - public_access (default scope)
-          #  - public_repo
-          # The following additional scopes may be required:
-          #  - read:org  (for organization related metrics)
-          #  - read:user (for user related data)
-          #  - repo      (optional, if you want to include private repositories)
+          filename: metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
 
-          # Options
-          user: jackyrwj
-          template: terminal
-          base: header, activity, community, metadata
-          config_timezone: Asia/Shanghai
-          
-          # 活动配置
-          plugin_activity: yes
-          plugin_activity_days: 14
-          plugin_activity_filter: all
-          plugin_activity_limit: 10
-          plugin_activity_load: 300
-          plugin_activity_visibility: all
-          
-          # 仓库配置
-          plugin_repositories: no
-          # plugin_repositories_affiliations: owner
-          # plugin_repositories_featured: yes
-          # plugin_repositories_pinned: yes
-          # plugin_repositories_starred: yes
-          
-          # 关注者配置
-          plugin_people: yes
-          plugin_people_limit: 36
-          plugin_people_size: 28
-          plugin_people_types: followers, following
-          
-          # # 项目配置
-          # plugin_projects: yes
-          # plugin_projects_limit: 6
-          # plugin_stars: yes
-          # plugin_stars_limit: 6
-          
-          # 其他配置
-          plugin_followup: yes
-          plugin_followup_sections: repositories
-          plugin_introduction: yes
-          plugin_introduction_title: yes
-          plugin_lines: yes
+          # 星标主题插件配置
+          plugin_topics: yes
+          plugin_topics_mode: icons
+          plugin_topics_limit: 15
+
+          # 最近 Star 插件配置
+          plugin_stargazers: yes
+          plugin_stargazers_limit: 3
+          plugin_stargazers_repositories: 100
+
+          # 全年日历插件配置 (新添加)
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
