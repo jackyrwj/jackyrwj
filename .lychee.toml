@@ -4,6 +4,11 @@
 # Only accept genuinely successful responses
 accept = [200, 204, 301, 302]
 
+# Anti-bot services that always return 403 to CLI tools but work in browsers
+exclude = [
+    "count\\.getloli\\.com",
+]
+
 # Timeout per request (seconds)
 timeout = 30
 
