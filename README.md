@@ -35,9 +35,9 @@
     <td valign="top" width="50%">
       <div align="center">
         <img src="https://raw.githubusercontent.com/jackyrwj/jackyrwj/master/metrics.plugin.topics.icons.svg" width="90%" />
-        <img src='https://count.getloli.com/@van?name=van&theme=asoul&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=0' width="300px"><br/><br/>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jackyrwj&layout=compact&theme=asoul" alt="Jacky's Top Languages" width="90%"/>
-        <img src="https://github-readme-stats.vercel.app/api?username=jackyrwj&show_icons=true&theme=asoul&count_private=true&custom_title=Jacky's%20GitHub%20Stats" alt="Jacky's GitHub stats" width="90%"/>
+        <img src="https://komarev.com/ghpvc/?username=jackyrwj&color=blueviolet" alt="Profile views" /><br/><br/>
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=jackyrwj&theme=default" alt="Top Languages" width="90%"/>
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=jackyrwj&theme=default" alt="Jacky's GitHub stats" width="90%"/>
         <br/>
         <img src="https://raw.githubusercontent.com/jackyrwj/jackyrwj/master/metrics.plugin.stars.svg" width="90%" />
         <br/>
