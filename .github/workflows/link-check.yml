@@ -1,0 +1,33 @@
+name: Link Check
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "0 0 * * 1"  # 每周一 UTC 0:00
+  workflow_dispatch:
+
+jobs:
+  link-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check links in Markdown and HTML files
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --config .lychee.toml
+            --verbose
+            --no-progress
+            '**/*.md'
+          fail: true
+
+      - name: Upload link check report
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: link-check-report
+          path: ./lychee/out.md
+          retention-days: 7
