@@ -34,8 +34,6 @@
     <!-- 右侧：计数器、topics、stars、isocalendar -->
     <td valign="top" width="50%">
       <div align="center">
-        <img src="https://raw.githubusercontent.com/jackyrwj/jackyrwj/master/metrics.plugin.topics.icons.svg" width="90%" />
-        <img src="https://komarev.com/ghpvc/?username=jackyrwj&color=blueviolet" alt="Profile views" /><br/><br/>
         <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=jackyrwj&theme=default" alt="Top Languages" width="90%"/>
         <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=jackyrwj&theme=default" alt="Jacky's GitHub stats" width="90%"/>
         <br/>
