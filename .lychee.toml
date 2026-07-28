@@ -2,7 +2,7 @@
 # https://lychee.cli.rs/usage/config/
 
 # Accept these status codes as valid (some services return 403/429 for bots)
-accept = [200, 204, 301, 302, 403, 429]
+accept = [200, 204, 301, 302, 403, 429, 503]
 
 # Exclude URLs that are known to rate-limit or block CI bots
 exclude = [
@@ -14,6 +14,10 @@ exclude = [
 
 # Timeout per request (seconds)
 timeout = 30
+
+# Retry settings
+max_retries = 3
+retry_wait_time = 5
 
 # Max concurrent requests
 max_concurrency = 4
