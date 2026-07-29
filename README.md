@@ -30,8 +30,6 @@
       <br/>
         <img src="https://raw.githubusercontent.com/jackyrwj/jackyrwj/master/metrics.isocalendar.svg" width="90%" />
       <br/>
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=jackyrwj&theme=default" alt="Jacky's GitHub stats" width="90%"/>
-      <br/>
     </td>
     <!-- 右侧：计数器、topics、stars、isocalendar -->
     <td valign="top" width="50%">
@@ -39,6 +37,7 @@
         <img src='https://count.getloli.com/@van?name=van&theme=asoul&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=0' width="300px" />
         <br/><br/>
         <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=jackyrwj&theme=default" alt="Top Languages" width="90%"/>
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=jackyrwj&theme=default" alt="Jacky's GitHub stats" width="90%"/>
         <br/>
         <img src="https://raw.githubusercontent.com/jackyrwj/jackyrwj/master/metrics.plugin.stars.svg" width="90%" />
         <br/>
