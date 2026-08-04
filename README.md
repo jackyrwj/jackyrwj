@@ -31,7 +31,7 @@
         <img src="https://raw.githubusercontent.com/jackyrwj/jackyrwj/master/metrics.isocalendar.svg" width="90%" />
       <br/>
       <div align="center">
-        <img src='https://count.getloli.com/@van?name=van&theme=asoul&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=0' width="300px" />
+        <img src="https://komarev.com/ghpvc/?username=jackyrwj&label=Profile%20views&color=0e75b6&style=for-the-badge" alt="Profile views" />
       </div>
     </td>
     <!-- 右侧：topics、stats、stars -->
