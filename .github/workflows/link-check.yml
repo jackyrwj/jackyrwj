@@ -4,6 +4,10 @@ on:
   pull_request:
   push:
     branches: [main]
+    paths:
+      - README.md
+      - .lychee.toml
+      - .github/workflows/link-check.yml
   schedule:
     - cron: "0 0 * * 1"  # 每周一 UTC 0:00
   workflow_dispatch:
