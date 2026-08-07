@@ -5,8 +5,11 @@
 accept = [200, 204, 301, 302]
 
 # Anti-bot services that always return 403 to CLI tools but work in browsers
+# Also exclude auto-generated metrics SVGs (produced by the metrics workflow)
+# that may not yet exist on the branch when the link check runs
 exclude = [
     "count\\.getloli\\.com",
+    "raw\\.githubusercontent\\.com/jackyrwj/jackyrwj/[^/]+/metrics\\.",
 ]
 
 # Timeout per request (seconds)
