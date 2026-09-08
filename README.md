@@ -37,8 +37,8 @@
     <!-- 右侧：topics、stats、stars -->
     <td valign="top" width="50%">
       <div align="center">
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=jackyrwj&theme=default" alt="Top Languages" width="90%"/>
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=jackyrwj&theme=default" alt="Jacky's GitHub stats" width="90%"/>
+        <img src="https://raw.githubusercontent.com/jackyrwj/jackyrwj/main/metrics.languages.svg" alt="Top Languages" width="90%"/>
+        <img src="https://raw.githubusercontent.com/jackyrwj/jackyrwj/main/metrics.profile.svg" alt="Jacky's GitHub stats" width="90%"/>
         <br/>
         <img src="https://raw.githubusercontent.com/jackyrwj/jackyrwj/master/metrics.plugin.stars.svg" width="90%" />
         <br/>
